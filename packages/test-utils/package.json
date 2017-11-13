@@ -1,5 +1,5 @@
 {
-    "name": "@bss/utils",
+    "name": "_bss_utils_",
     "version": "1.0.0",
     "description": "",
     "main": "lib/index.js",
