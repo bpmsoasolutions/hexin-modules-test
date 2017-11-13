@@ -5,7 +5,8 @@
     "main": "lib/index.js",
     "typings": "lib/index.d.ts",
     "scripts": {
-        "prepublish": "tsc -p tsconfig.build.json"
+        "prepublish": "tsc -p tsconfig.build.json",
+        "build": "tsc -p tsconfig.build.json"
     },
     "keywords": [],
     "author": "",
@@ -15,5 +16,6 @@
     },
     "devDependencies": {
         "typescript": "^2.5.2"
-    }
+    },
+    "private": true
 }
